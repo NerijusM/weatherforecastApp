@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="input-group mb-3">
+    <input #search 
+          (keyup)="keyup(search.value)" 
+          type="text" 
+          class="form-control" 
+          placeholder="Please enter the name of the location you are looking for:" 
+          aria-label="Place" 
+          aria-describedby="basic-addon1">
+  </div>
+</div>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="filteredplaces.length">
+  <thead>
+    <tr>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let place of filteredplaces" class="pointer" (click)="onSelect(place.code)">
+      <td>{{ place.name }}</td>
+    </tr>
+  </tbody>

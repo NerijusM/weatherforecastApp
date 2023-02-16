@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "t4HPM/F/XaoQsm/s7Stvym+JQTSDG3Nr31reAYo8p9gtU2j9gUvwsAFiercvJzzjvgMgNuE+JWJTDv3bs61DNQ==",
+  "success": true,
+  "projectFilePath": "/Users/nerimede/Projektai/FromGitHub/GithubWeatherForecast/ForecastCore/ForecastCore.csproj",
+  "expectedPackageFiles": [
+    "/Users/nerimede/.nuget/packages/fody/6.6.4/fody.6.6.4.nupkg.sha512",
+    "/Users/nerimede/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512",
+    "/Users/nerimede/.nuget/packages/nullguard.fody/3.1.1/nullguard.fody.3.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,30 @@
+<p *ngIf="!forecast?.forecastTimestamps?.length && placeCode.length > 0"><em>Loading...</em></p>
+
+<div class="row" *ngIf="forecast?.place">
+  <div class="col-sm-12 text-center"><H2> {{forecast?.place?.administrativeDivision}} ({{forecast?.place?.name}}) </H2></div>
+</div> 
+
+<app-forecast-graphic [forecastTimestamp]="forecast.forecastTimestamps" *ngIf="forecast?.forecastTimestamps?.length"></app-forecast-graphic>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="forecast?.forecastTimestamps?.length">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Temp. (C)</th>
+      <th>Feels like Temp. (C)</th>
+      <th>Wind speed</th>
+      <th>Wind direction</th>
+      <th>Relative Humidity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let forecast of forecast.forecastTimestamps">
+      <td>{{ forecast.forecastLocalTime }}</td>
+      <td>{{ forecast.airTemperature }}</td>
+      <td>{{ forecast.feelsLikeTemperature }}</td>
+      <td>{{ forecast.windSpeed }}</td>
+      <td><app-wind-direction [direction]="forecast.windDirection"></app-wind-direction></td>
+      <td>{{ forecast.relativeHumidity }}</td>
+    </tr>
+  </tbody>
+</table>
