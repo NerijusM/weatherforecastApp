@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:44443",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "/Users/nerimede/Projektai/FromGitHub/GithubWeatherForecast/ForecastWebApp/ClientApp/",
+"MaxTimeoutInSeconds": "120"
+}
+}
