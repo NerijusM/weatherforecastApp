@@ -15,7 +15,7 @@ Sukurti du projektai:
 
 Palaidžiamasis projektas ForecastWebApp.
 
-Paleidus projektą bus matomas lanagas: reikia šiek tie palaukti kol pasileis proxy
+Paleidus projektą bus matomas lanagas: reikia šiek tiek palaukti kol pasileis proxy
 <img width="1792" alt="Screenshot 2023-02-17 at 08 37 57" src="https://user-images.githubusercontent.com/118008628/219568735-c28516b9-8c16-4c90-ac6b-21102ebe69e7.png">
 
 
