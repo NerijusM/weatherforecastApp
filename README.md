@@ -15,11 +15,11 @@ Sukurti du projektai:
 
 Palaidžiamasis projektas ForecastWebApp.
 
-Paleidus projektą bus matomas langas: reikia šiek tiek palaukti kol pasileis proxy
+Paleidus projektą bus matomas langas - reikia šiek tiek palaukti kol pasileis proxy
 <img width="1792" alt="Screenshot 2023-02-17 at 08 37 57" src="https://user-images.githubusercontent.com/118008628/219568735-c28516b9-8c16-4c90-ac6b-21102ebe69e7.png">
 
 
 Resultato vaizdas: 
 <img width="1787" alt="Screenshot 2023-02-17 at 08 36 09" src="https://user-images.githubusercontent.com/118008628/219567958-0c847e09-cf71-4b85-a163-634cdd9ec22d.png">
 
-Vedant į paiešką simbolius automatiškai filtruojamos api gražinamos vietovės ir pasirinkus konkrečią bus pateikta prognozės informacija
+Vedant į paiešką simbolius automatiškai filtruojamos vietovės, kurioms teikiama orų prognozė, ir pasirinkus konkrečią vietovę bus pateikta prognozės informacija.
