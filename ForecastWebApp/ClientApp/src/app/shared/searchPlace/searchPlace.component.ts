@@ -14,7 +14,6 @@ export class SearchPlaceComponent implements OnInit {
   public places: Place[] = [];
   public filteredplaces: Place[] = [];
   searchValue: string = "kaunas";
-  // public selectedCode: string = "";
 
   constructor(private forecastService: ForecastService) { }
 

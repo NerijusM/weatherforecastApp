@@ -42,8 +42,6 @@ PlotlyModule.plotlyjs = PlotlyJS;
     FormsModule,
     RouterModule.forRoot([
       { path: '', component: FetchDataComponent, pathMatch: 'full' },
-      // { path: 'counter', component: CounterComponent },
-      // { path: 'fetch-data', component: FetchDataComponent },
     ])
   ],
   providers: [],

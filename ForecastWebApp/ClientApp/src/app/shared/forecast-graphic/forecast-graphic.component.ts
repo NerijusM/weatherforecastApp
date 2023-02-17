@@ -15,7 +15,6 @@ export class ForecastGraphicComponent implements OnInit, OnChanges {
   constructor() { }
 
   ngOnInit() {
-    //this.setChartOptions();
   }
 
   ngOnChanges(): void {

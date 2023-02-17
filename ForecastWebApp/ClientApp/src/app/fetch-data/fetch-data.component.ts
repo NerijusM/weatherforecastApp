@@ -13,19 +13,11 @@ export class FetchDataComponent implements OnInit{
   public selectedCode: string = "";
 
   constructor(private forecastService: ForecastService) {
-    // console.log(baseUrl);
-
-    // http.get<WeatherForecast[]>(baseUrl + '/weatherforecast/places').subscribe(result => {
-    //   this.forecasts = result;
-    // }, error => console.error(error));
+   
   }
 
   ngOnInit(): void {
-    // this.forecastService.getPlaces()
-    // .subscribe({
-    //   next: (places) => this.places = places,
-    //   error: (err) => console.log(err)
-    // })
+ 
   };
 
   onSelectCode(code: string) {
