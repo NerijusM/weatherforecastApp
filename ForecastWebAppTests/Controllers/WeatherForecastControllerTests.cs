@@ -13,19 +13,11 @@ namespace ForecastWebAppTests.Controllers;
 [TestFixture]
 public class WeatherForecastControllerTests
 {
-    //private Place place1 = new Place() { Code = "0", Name = "" };
-    //private Place Place2 = new Place() { Code = "1", Name = "" },
     private IEnumerable<Place> _placesList = new List<Place>()
     {
         new Place() { Code = "0", Name = "" },
         new Place() { Code = "1", Name = "" },
     };
-
-    //private IEnumerable<PlaceDto> _placesListDto = new List<PlaceDto>()
-    //{
-    //    new Place() { Code = "0", Name = "" }.ToDto(),
-    //    new Place() { Code = "1", Name = "" }.ToDto(),
-    //};
 
     [Test]
     public void Places_ResultFailure_ReturStatusCode500()
